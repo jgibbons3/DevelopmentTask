@@ -1,0 +1,10 @@
+.post_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    margin: 2%;
+    background-color: rgb(253, 242, 228);
+    border: transparent;
+    border-radius: 1em;
+}

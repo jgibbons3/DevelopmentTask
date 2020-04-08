@@ -1,0 +1,37 @@
+.pagination_container {
+    display: flex;
+    justify-content: center;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.searchPostInput {
+    background-color: transparent;
+    border: transparent;
+    width: 20vw;
+    height: 3vh;
+    margin-top: 2vh;
+}
+
+.search_post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90vw;
+    height: 7vh;
+    background-color: rgb(226, 225, 218);
+    margin: 2%;
+}

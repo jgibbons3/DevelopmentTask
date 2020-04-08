@@ -1,0 +1,56 @@
+.modal-wrapper {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-background {
+    position: fixed;
+    background-color: black;
+    opacity: 0.78;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal_edit_content {
+    position: relative;
+    z-index: 10;
+    width: 55vw;
+    height: 50vh;
+    border-radius: 0.2em;
+    background-color: white;
+}
+
+.update-input {
+    display: flex;
+    justify-content: center;
+    margin: 3vh;
+    height: 30vh;
+    width: 50vw;
+}
+
+
+.edit_buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.edit_post_button {
+    margin-top: 3vh;
+    width: 10vw;
+    height: 5vh;
+    font-size: 1em;
+    color: black;
+    background-color: rgb(253, 242, 228);
+    border-radius: 25em;
+}
+
+#edit_post {
+    margin-right: 6.5vw;
+}
